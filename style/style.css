@@ -74,7 +74,6 @@ img {
   height: var(--full-parent-height);
 }
 
-
 /* --------------------------------initials ends here-------------------------- */
 /* 
 
@@ -273,7 +272,6 @@ main {
 */
 /* --------------------------------Section1 starts here-------------------------- */
 .section1 {
-
   width: 100%;
   display: flex;
   overflow: hidden;
@@ -403,8 +401,6 @@ main {
 .section2 {
   background-color: white;
   display: flex;
-
-
 }
 
 .section2-wrapper-inner {
@@ -483,7 +479,6 @@ main {
   flex-flow: column;
   gap: 2rem;
 }
-
 
 .section3-inner-paragraph__child {
   max-width: 40ch;
@@ -608,7 +603,6 @@ main {
   clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
   margin-top: -20vh;
   height: 150rem;
-
 }
 
 .section4-uni {
@@ -823,6 +817,10 @@ main {
   color: var(--sec4-text-color);
 }
 
+.section6-inner__text-paragraph a {
+  color: var(--sec4-blue-color);
+}
+
 .section6-inner__text-paragraph a:hover {
   color: var(--sec3-white-color);
 }
@@ -999,7 +997,6 @@ h6.section7-uni {
   background-color: white;
   display: flex;
   justify-content: center;
-
 }
 
 .arya-topFooter {
@@ -1058,11 +1055,23 @@ h6.section7-uni {
   margin-bottom: 20px;
 }
 .arya-tag-card button {
+  color: var(--sec3-purple-color);
   padding: var(--buttons-padding);
 }
+
+.arya-tag-card button:hover {
+  color: var(--sec3-dark-color);
+}
+
 .arya-code-card button {
+  color: var(--sec3-purple-color);
   padding: var(--buttons-padding);
 }
+
+.arya-code-card button:hover {
+  color: var(--sec3-dark-color);
+}
+
 .arya-strtBtn {
   background-color: rgb(99, 91, 255);
   color: rgba(255, 255, 255, 1);
@@ -1098,7 +1107,6 @@ h6.section7-uni {
   background-color: var(--sec3-background-color);
   clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
   margin-top: -5%;
-
 }
 
 .footer-wrapper {
@@ -1169,7 +1177,6 @@ h6.section7-uni {
   column-width: 10rem;
 }
 
-
 /* utility class for divs that contain "ul" for links */
 .footer-container--headlink {
   break-inside: avoid;
@@ -1229,16 +1236,14 @@ h6.section7-uni {
 }
 
 @media only screen and (max-width: 1000px) {
-
   .section2-wrapper-inner {
     flex-wrap: nowrap;
   }
 
   .section2-inner-first,
-.section2-inner-second {
-  flex-direction: column;
-}
-
+  .section2-inner-second {
+    flex-direction: column;
+  }
 
   .navbar-list {
     justify-content: space-around;
@@ -1246,14 +1251,11 @@ h6.section7-uni {
   .circle {
     display: block;
   }
-  
-  .navbar-list > ul:nth-child(2), .navbar-list > li:nth-child(3) {
+
+  .navbar-list > ul:nth-child(2),
+  .navbar-list > li:nth-child(3) {
     display: none;
   }
-  
-
-
-
 }
 
 @media screen and (min-width: 600px) {
