@@ -217,7 +217,7 @@ nav {
   transition-duration: var(--transition--duration-regular);
 }
 
-.navbar-list li:last-child button:hover {
+.navbar-list li:nth-child(3) button:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
