@@ -197,11 +197,6 @@ nav {
 
 .circle {
   display: none;
-  width: 5rem;
-  height: 5rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 100%;
-  cursor: pointer;
 }
 
 .navbar-list {
@@ -300,6 +295,7 @@ main {
 
 /* h1 */
 .section1-inner__text--title {
+  width: max-content;
   letter-spacing: -1px;
   font-size: 7rem;
   font-weight: 1000;
@@ -1250,6 +1246,15 @@ h6.section7-uni {
   }
   .circle {
     display: block;
+    border-radius: 3rem;
+    width: 4.5rem;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .circle:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
   }
 
   .navbar-list > ul:nth-child(2),
